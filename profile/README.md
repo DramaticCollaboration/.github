@@ -1,76 +1,110 @@
-### **엠파시 (Empasy)**
+<div align="center">
 
-#### **1. 개요**
-㈜엠파시는 빠르게 변화하는 비즈니스 환경에 민첩하게 대응하기 위한 **"변화에 최적화된 솔루션"**을 핵심 가치로 내세우는 소프트웨어 솔루션 개발 전문 기업입니다. 소프트웨어가 모든 업무의 중심에 있음을 인식하고, 신속한 소프트웨어 변경 및 적용을 통해 비즈니스 민첩성을 극대화하는 데 초점을 맞추고 있습니다. 회사명 'Empasy'는 'Empathic Synergy'의 줄임말로, 깊은 공감과 협업을 통해 뛰어난 결과를 만들어내는 것을 상징합니다.
+# ㈜엠파시 (Empasy Inc.)
+### **"Boon to Business by Agility — AI 자율 운영 생태계를 이끄는 Living Software"**
 
-엠파시는 솔루션 기반의 SI(시스템 통합)/ITO(IT 유지관리) 사업을 주력으로 하며, 특히 **Sync Series(SyncBoot, SyncAdmin, SyncCMS, SyncEta)**라는 제품군을 통해 기업의 디지털 혁신을 지원합니다.
+[![Official Website](https://img.shields.io/badge/Official_Web-empasy.io-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://empasy.io)
+[![Tech Documentation](https://img.shields.io/badge/Tech_Docs-doc.empasy.com-f97316?style=for-the-badge&logo=gitbook&logoColor=white)](https://doc.empasy.com)
+[![GitHub Org](https://img.shields.io/badge/GitHub-Empasy_Org-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/empasy)
+[![Contact](https://img.shields.io/badge/Contact-contact%40empasy.com-10b981?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:contact@empasy.com)
 
-#### **2. 연혁**
-*   **2020년 10월**: SyncCMS 솔루션 출시
-*   **2020년 12월 ~ 2021년 4월**: 천재교육 T셀파 리뉴얼 구축 (SyncCMS 적용)
-*   **2021년 6월**: SK매직 e-카탈로그 시스템 구축
-*   **2021년 8월 ~ 현재**: LX하우시스 해외 글로벌 웹사이트 구축 및 유지보수
-*   **2022년 2월 ~ 8월**: KT ESG 포털 구축 (SyncCMS 적용)
-*   **2022년 4월 ~ 9월**: 삼성DS 브랜드 데스크 사이트 구축
-*   **2023년 1월**: SyncBoot 솔루션 출시
-*   **2023년 3월 ~ 10월**: SK매직 매직플러스 BO 개편 프로젝트 (SyncBoot 적용)
-*   **2024년 3월 ~ 현재**: 홈플러스 MIS 시스템 재구축 (SyncBoot 적용)
-*   **2024년 4월**: ㈜엠파시 설립
+<br/>
 
-#### **3. 사업 분야**
-엠파시는 고객의 비즈니스 경쟁력 향상을 위한 다양한 IT 서비스를 제공합니다.
+**㈜엠파시(Empasy)**는 'Empathic Synergy(공감과 협업의 시너지)'를 바탕으로,  
+변화에 민첩하게 반응하고 스스로 진화하는 **엔터프라이즈 AI 자율 운영 생태계(Living Software)**를 구축합니다.  
+표준 **MCP(Model Context Protocol)**와 클라우드 네이티브 아키텍처를 결합하여 기획·개발·QA·운영 전 주기를 혁신합니다.
 
-**3.1. 시스템 통합(SI) 사업**
-*   다양한 산업 분야에서 고객의 업무 환경 요구에 맞는 최적의 IT 시스템을 분석, 설계, 구축, 이행하여 최고의 서비스를 제공합니다.
-
-**3.2. IT 유지관리(ITO) 사업**
-*   대기업 및 중견기업의 전략 사업 파트너로서 국내 ITO 사업을 선도하며, 고객의 업무 효율성 증대 및 비용 절감에 기여합니다.
-
-**3.3. 솔루션 사업 (Sync Series)**
-엠파시의 핵심 제품군인 Sync Series는 프론트엔드, 백엔드, 콘텐츠 관리, 테스트 자동화 영역에서 속도, 효율성, 유연성을 높여 기업의 비즈니스 민첩성 목표 달성을 돕습니다.
-
-*   **SyncBoot**:
-    *   Java 기반의 **오픈소스 빠른 개발 플랫폼**으로, **마이크로서비스 아키텍처(MSA) 구현을 위한 핵심 플랫폼**입니다.
-    *   **E2E(End-to-End) 솔루션**을 제공하며, 컨테이너 관리, CI/CD, 모니터링, API 관리, 인증 기능을 포괄합니다.
-    *   표준 Spring 생태계 기반으로 **개발 생산성 향상**에 기여하며, 권한 관리, 워크플로우, 리포트, 대시보드 등 기업용 모듈이 내장되어 있습니다.
-    *   **강력한 운영 및 모니터링 기능** (Spring 서비스 모니터링, ELK 통합 로그 조회, 시스템 매트릭 모니터링, 느린 SQL 모니터링)을 제공하여 서비스 안정성을 유지합니다.
-    *   **강력한 보안 기능**으로 API 자산을 보호하며, OWASP TOP 10 취약점에 대한 방비가 잘 되어 있습니다.
-
-*   **SyncAdmin**:
-    *   Vue 3, Vite, TypeScript를 기반으로 한 **오픈소스 관리 시스템 템플릿**입니다.
-    *   재사용 가능한 컴포넌트와 Vite의 실시간 반영 기능을 통해 **프론트엔드 개발 속도를 혁신적으로 향상**시킵니다.
-    *   중대형 규모의 백오피스 및 관리자 대시보드 개발에 최적화되어 있습니다.
-
-*   **SyncCMS**:
-    *   Java 기반의 **콘텐츠 관리 시스템(CMS)**으로, 높은 안정성과 확장성을 제공합니다.
-    *   마케터나 운영 담당자와 같은 **비전문가도 웹사이트 콘텐츠를 쉽게 업데이트하고 관리**할 수 있는 사용자 친화적인 UI를 제공합니다.
-    *   모듈화된 구조와 사용자 정의 템플릿을 통해 디자인 유연성을 보장하며, 다국어 지원 및 SEO 최적화 기능이 내장되어 있습니다.
-
-*   **SyncEta**:
-    *   AI를 활용한 **웹 자동화 테스트 플랫폼**입니다.
-    *   Selenium 기반의 엔진 위에 구축되었으며, **AI가 테스트 생성, 실행, 분석 과정을 지능적으로 수행**합니다.
-    *   **테스트 케이스 자동 생성 및 추천, UI/UX 변경에 강한 자가 학습 테스트, 테스트 실패 원인 자동 분석 기능**을 제공합니다.
-    *   코딩 없이 웹 테스트 자동화를 구현할 수 있으며, 사용자 친화적인 개발 환경(IDE)을 통해 테스트 전 과정을 효율적으로 관리합니다.
-    *   CI/CD 파이프라인과 통합되어 코드 변경 사항을 빠르고 안정적으로 반영할 수 있도록 돕습니다.
-
-*   **SyncApim**:
-API를 통한 가치 창출 및 디지털 혁신을 선도하는 **종합 API 관리 플랫폼**으로, 기업의 디지털 트랜스포메이션을 위한 핵심 전략 도구입니다. API의 생성부터 운영, 분석까지 **전체 라이프사이클을 관리**합니다.
-
-    *   **안정성 및 보안성**: 고가용성을 보장하며, OAuth 2.0, JWT, API 키를 통한 **강력한 다층 보안 기능**으로 API 자산을 보호합니다.
-    *   **통합 관리**: API 생성, 배포, 보안, 모니터링, 분석을 **한 곳에서 처리**하여 운영 효율성을 높입니다.
-    *   **개발자 친화적**: 직관적인 개발자 포털과 풍부한 문서화를 제공하여 개발 효율성을 향상시킵니다.
-    *   **확장성**: 클라우드 네이티브 아키텍처를 기반으로 **대규모 트래픽 처리가 가능**하며, 다양한 환경 및 요구사항에 유연하게 대응하고 표준 API 및 다양한 기술을 지원합니다.
-    *   **비즈니스 경쟁력 강화**: API 활용 극대화를 통해 새로운 비즈니스 기회를 창출하고, 운영 효율성 향상 및 비용 절감에 기여합니다.
-    *   **고객 맞춤형**: 각 고객의 비즈니스 환경, 요구사항, 기술 스택에 맞춰 **유연하게 확장 및 수정 가능한 시스템**을 제공하여 SI 프로젝트의 성공을 위한 핵심 도구 역할을 합니다.
-    *   **주요 기능**: 정책 관리, API 관리, API 테스트, 모니터링, 시스템 알림 등이 포함됩니다.
-
-**3.4. 모바일 사업**
-*   모바일 앱 개발부터 시스템 연동 및 운영 환경을 제공하며, 다양한 산업군 및 업무에 최적화된 모바일 인터페이스 설계를 지원합니다.
-
-**3.5. 기술 컨설팅**
-*   정보화 전략 컨설팅(ISP), DevOps/MSA 기술 컨설팅, 분석/설계, 개발/구축, 검증/운영/자문 등 폭넓은 컨설팅 서비스를 제공합니다.
+</div>
 
 ---
-[홈페이지](http://www.empasy.com)
 
-[기술자료](http://doc.empasy.com)
+### 🌐 The Sync Series Ecosystem (3-Layer Architecture)
+
+엠파시의 **Sync Series**는 분산된 도메인 에이전트들이 유기적으로 협업하는 통합 엔터프라이즈 솔루션 라인업입니다.
+
+```mermaid
+flowchart TD
+    subgraph Intelligence ["🧠 Intelligence & Orchestration"]
+        SV["SyncVerse<br/>(A2A 멀티에이전트 관제탑)"]
+        SI["SyncInsight<br/>(NLQ 비즈니스 인텔리전스)"]
+        SL["SyncLLM<br/>(AI Gateway & FinOps)"]
+    end
+
+    subgraph Platform ["⚡ Enterprise Application Platform"]
+        SB["SyncBoot<br/>(Clean Arch & DDD MSA)"]
+        SC["SyncCMS<br/>(Headless AI CMS)"]
+        SA["SyncAdmin<br/>(Vue 3 & Vite 백오피스)"]
+        AP["SyncAPIM<br/>(API 거버넌스 게이트웨이)"]
+    end
+
+    subgraph DataQA ["🔄 Data Engine & Autonomous QA"]
+        SE["SyncETA<br/>(Vision-LLM 자가치유 QA)"]
+        CR["SyncCrawl<br/>(적응형 RAG 지식 파이프라인)"]
+    end
+
+    Intelligence <-->|표준 MCP & A2A 프로토콜| Platform
+    Platform <--> DataQA
+```
+
+---
+
+### ⚡ Core Solutions & Platforms
+
+| Solution | Layer & Role | Key Capabilities & Architecture | Docs & Link |
+| :--- | :--- | :--- | :---: |
+| **SyncVerse** | AI Orchestration | • 표준 MCP 기반 도메인 에이전트 자율 협업 오케스트레이션<br>• 자연어 의도 기반 지능형 라우팅 및 6-Step AI DLC 라이프사이클<br>• 1-Click HITL(Human-in-the-Loop) 거버넌스 및 Saga 분산 트랜잭션 | [SyncVerse 가이드](https://doc.empasy.com/syncverse/) |
+| **SyncInsight** | Decision Intelligence | • 엔터프라이즈 데이터 실시간 스트리밍 분석 및 Anomaly Detection<br>• 자연어 질의 기반 맞춤형 데이터 시각화 (NL2SQL & Context-Aware RAG)<br>• 시스템 자원 및 FinOps 토큰 비용 통합 모니터링 | [SyncInsight 가이드](https://doc.empasy.com/syncinsight/) |
+| **SyncETA** | Autonomous QA | • Vision-LLM 기반 화면 요소 재식별 및 셀렉터 자가 치유(Self-Healing)<br>• 엑셀(Excel) 테스트케이스 직결 실행 & 노코드 GUI 테스트<br>• CI/CD 무인 회귀 테스트 파이프라인 및 비디오 실행 리포트 | [SyncETA 가이드](https://doc.empasy.com/synceta/) |
+| **SyncCrawl** | Adaptive Web & RAG | • DOM 구조 변경에 자율 대응하는 고적응형 웹 수집 엔진<br>• 안티봇 우회(지능형 프록시 순환) 및 정형 JSON 스키마 자동 추출<br>• 엔터프라이즈 RAG 구축을 위한 벡터 DB 실시간 파이프라인 | [SyncCrawl 가이드](https://doc.empasy.com/synccrawl/) |
+| **SyncBoot** | Cloud-Native MSA | • Spring Boot 기반 Clean Architecture & 도메인 주도 설계(DDD)<br>• AI Schema Studio 로우코드 생성기 및 권한/워크플로우 내장<br>• OWASP Top 10 보안 표준 및 ELK 분산 로깅 완비 | [SyncBoot 가이드](https://doc.empasy.com/syncboot/) |
+| **SyncCMS** | Enterprise AI CMS | • 15개국 이상 다국어 및 멀티 도메인 통합 관리 엔진<br>• 마케터/운영자를 위한 직관적 노코드 라이브 빌더 & SEO 최적화<br>• Live SDK 연동 및 온프레미스 AI 보안 환경 지원 | [SyncCMS 가이드](https://doc.empasy.com/synccms/) |
+| **SyncLLM** | Enterprise AI Gateway | • 멀티 LLM 지능형 라우팅 및 실시간 토큰 비용 제어(FinOps)<br>• 시맨틱 캐싱(Semantic Caching) 및 엔터프라이즈 PII 마스킹 | [SyncLLM 가이드](https://doc.empasy.com/syncllm/) |
+| **SyncAdmin** | Admin UI Framework | • Vue 3, Vite, TypeScript 기반 고성능 템플릿<br>• 모듈화된 반응형 컴포넌트 및 초고속 프론트엔드 개발 환경 | [SyncAdmin 가이드](https://doc.empasy.com/syncadmin/) |
+| **SyncAPIM** | API Management | • 엔터프라이즈 API 생성·배포·보안·모니터링 전 주기 통합 관리<br>• OAuth 2.0 / JWT 기반 다층 보안 및 트래픽 제어 정책 거버넌스 | [SyncAPIM 가이드](https://doc.empasy.com/syncapim/) |
+
+---
+
+### 🏢 Proven Enterprise Track Record (검증된 레퍼런스)
+
+엠파시는 대규모 트래픽과 높은 신뢰성이 요구되는 미션 크리티컬 엔터프라이즈 환경에서 기술력을 입증해 왔습니다.
+
+* 🎓 **비상교육 (AIDT 플랫폼)**: 실시간 동시 접속 2,000명 규모 교육 플랫폼에 `SyncETA` 도입 ➔ **수작업 QA 공수 80% 절감, 회귀 테스트 시간 4시간 → 45분 단축**
+* 🚗 **아우토크립트 & 현대자동차 (vSoC 차량 관제)**: 대규모 텔레매틱스 데이터 파이프라인 구축 ➔ **초당 10,000+ 패킷 무지연 처리 및 실시간 이상 탐지**
+* 🛒 **홈플러스 (차세대 MIS 시스템)**: `SyncBoot` 프레임워크 기반 클라우드 네이티브 MSA 전면 전환 ➔ **Saga 분산 트랜잭션 패턴 적용 및 비즈니스 정합성 확보**
+* 🛡️ **펜타시큐리티 (WAPPLES API Security)**: `SyncBoot` + `OpenSearch` 결합 ➔ **대규모 API 트래픽 무지연 인덱싱 및 멀티 클라우드 관제 엔진 구축**
+* ☁️ **효성ITX (엔터프라이즈 데이터 파이프라인)**: AKS(Azure Kubernetes) 분산 클러스터 기반 **Playwright 멀티 워커 웹 수집 및 RAG 지식 자산화**
+* 🌐 **LX하우시스 / SK매직 / KT / 한전**: 글로벌 다국어 커머스 웹 구축 및 대기업 엔터프라이즈 시스템 운영·유지보수
+
+---
+
+### 🛠 Technology Stack
+
+```
+AI & Multi-Agent │ AgentScope Java, Model Context Protocol (MCP), LangChain, Vision-LLM, RAG
+Backend          │ Java 17/21, Spring Boot 3, Spring Cloud, MyBatis/JPA, Redis, Kafka, RabbitMQ
+Frontend         │ Vue 3, Vite, TypeScript, Pinia, Element Plus, TailwindCSS
+Data & Search    │ PostgreSQL, MySQL, OpenSearch, ElasticSearch, Chroma / Milvus (Vector DB)
+DevOps & Cloud   │ Docker, Kubernetes (AKS/EKS), Jenkins, GitHub Actions, AWS, Azure, Linux
+QA & Automation  │ Playwright, Selenium, Chromium Automation Engine (SyncETA)
+```
+
+---
+
+### 💼 Business Capabilities
+
+1. **AI & Solution Ecosystem**: Sync Series 공급, 맞춤형 AI 에이전트 구축 및 온프레미스 최적화
+2. **System Integration (SI)**: 클라우드 네이티브 MSA 분석/설계, 엔터프라이즈 시스템 신속 구축
+3. **IT Outsourcing (ITO)**: 대규모 트래픽 및 보안 규정 준수 시스템의 안정적 24/7 유지보수
+4. **Architecture Consulting**: DevOps, FinOps 비용 최적화, 정보화 전략(ISP) 및 A2A 전환 컨설팅
+
+---
+
+### 🔗 Explore & Connect
+
+- **공식 홈페이지**: [https://empasy.io](https://empasy.io)
+- **개발자 기술 문서**: [https://doc.empasy.com](https://doc.empasy.com)
+- **비즈니스 제휴 및 솔루션 도입 문의**: [poh@empasy.com](mailto:poh@empasy.com)
+
+<div align="right">
+<sub>Copyright © 2026 Empasy Inc. All rights reserved.</sub>
+</div>
