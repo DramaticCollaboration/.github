@@ -103,7 +103,7 @@ QA & Automation  │ Playwright, Selenium, Chromium Automation Engine (SyncETA)
 
 - **공식 홈페이지**: [https://empasy.io](https://empasy.io)
 - **개발자 기술 문서**: [https://doc.empasy.com](https://doc.empasy.com)
-- **비즈니스 제휴 및 솔루션 도입 문의**: [poh@empasy.com](mailto:poh@empasy.com)
+- **비즈니스 제휴 및 솔루션 도입 문의**: [contact@empasy.com](mailto:contact@empasy.com)
 
 <div align="right">
 <sub>Copyright © 2026 Empasy Inc. All rights reserved.</sub>
