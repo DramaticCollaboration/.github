@@ -1,21 +1,21 @@
 ---
-name: ✨ 기능 제안 (Feature Request)
-about: 새로운 도메인 기능, AI 에이전트 확장 또는 개선 아이디어를 제안합니다.
+name: 기능 제안 (Feature Request)
+about: 신규 기능, 개선 아이디어 또는 에이전트 확장을 제안합니다.
 title: "[FEAT] "
 labels: ["enhancement"]
 assignees: ""
 ---
 
-### 1. 기능 제안 배경 및 필요성 (Motivation)
-<!-- 이 기능이 왜 필요한지, 해결하려는 비즈니스/기술 문제점을 기술해 주세요. -->
+### 제안 배경
+<!-- 이 기능이 필요한 배경과 해결하려는 비즈니스 또는 개발상의 문제를 작성해 주세요. -->
 
-### 2. 제안 내용 및 요구사항 (Proposed Solution)
-<!-- 구현하고자 하는 솔루션과 주요 요구사항을 명확히 작성해 주세요. -->
+### 제안 내용 및 요구사항
+<!-- 구현하고자 하는 기능의 동작 방식과 주요 요구사항을 작성해 주세요. -->
 
-### 3. 도메인 및 아키텍처 영향도 (Architecture Impact)
-- **대상 컴포넌트**: (예: SyncVerse, SyncInsight, SyncShop, SyncCMS, SyncBoot, today-care 등)
-- **A2A / MCP 영향 여부**: (예: 신규 도구 `tool_name` 추가, 스키마 변동 등)
-- **DB 스키마 변동 여부**: (예: 신규 테이블, Flyway 마이그레이션 필요 여부)
+### 영향도 검토
+- 대상 모듈: (예: SyncVerse, SyncShop, SyncCMS, SyncBoot, TodayCare 등)
+- 에이전트 도구/MCP 영향: (예: 신규 도구 추가, 스키마 변경 필요 여부)
+- 데이터베이스 변경: (예: 신규 테이블 또는 필드 추가 여부)
 
-### 4. 대안 및 참고 자료 (Alternatives & References)
-<!-- 고려했던 대안이나 참고할 레퍼런스 링크를 적어주세요. -->
+### 대안 및 참고 자료
+<!-- 검토했던 대안이나 참고할 만한 관련 자료 링크가 있다면 적어주세요. -->

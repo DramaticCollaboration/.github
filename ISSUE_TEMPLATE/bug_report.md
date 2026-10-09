@@ -1,29 +1,29 @@
 ---
-name: 🐛 버그 리포트 (Bug Report)
-about: 시스템 오동작, 예외 발생 또는 회귀 버그를 보고합니다.
+name: 버그 리포트 (Bug Report)
+about: 시스템 동작 오류나 예외 발생 상황을 제보합니다.
 title: "[BUG] "
 labels: ["bug"]
 assignees: ""
 ---
 
-### 1. 버그 개요 (Description)
-<!-- 어떤 문제가 발생했는지 명확하게 작성해 주세요. -->
+### 문제 요약
+<!-- 어떤 오류나 오동작이 발생했는지 간략히 작성해 주세요. -->
 
-### 2. 재현 절차 (Steps to Reproduce)
-1. '...' 화면으로 이동
-2. '....' 버튼 클릭 또는 API 호출
-3. '....' 파라미터 전달
-4. 에러 발생
+### 재현 단계
+1. 
+2. 
+3. 
 
-### 3. 기대 동작 (Expected Behavior)
-<!-- 정상적으로 동작해야 하는 기대 결과를 기술해 주세요. -->
+### 기대 결과
+<!-- 본래 정상적으로 동작해야 하는 내용을 작성해 주세요. -->
 
-### 4. 실제 동작 및 에러 로그 (Actual Behavior & Logs)
+### 실제 결과 및 에러 로그
+<!-- 실제 발생한 오류 화면 설명, 콘솔 에러 로그, 스택 트레이스 등을 붙여넣어 주세요. -->
 ```text
-<!-- 콘솔 로그, 스택 트레이스 또는 API 에러 응답을 붙여넣어 주세요. -->
+
 ```
 
-### 5. 환경 정보 (Environment)
-- **컴포넌트/모듈**: (예: SyncVerse, SyncShop, SyncBoot, today-care)
-- **OS & 브라우저**: 
-- **DB & 인프라 버전**: PostgreSQL 17, Redis, Java 21/25
+### 환경 정보
+- 모듈 및 컴포넌트: (예: SyncVerse, SyncShop, SyncBoot, TodayCare 등)
+- 브라우저 및 OS:
+- 실행 환경: (예: 로컬 IDE, Docker Compose, 테스트 서버 등)
