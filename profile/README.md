@@ -6,7 +6,7 @@
 
 [![Official Website](https://img.shields.io/badge/Official_Web-empasy.io-0284c7?style=flat-square&logo=google-chrome&logoColor=white)](https://empasy.io)
 [![Tech Documentation](https://img.shields.io/badge/Tech_Docs-doc.empasy.com-f97316?style=flat-square&logo=gitbook&logoColor=white)](https://doc.empasy.com)
-[![GitHub Org](https://img.shields.io/badge/GitHub-DramaticCollaboration-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DramaticCollaboration)
+[![GitHub Org](https://img.shields.io/badge/GitHub-empasy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/empasy)
 [![Contact](https://img.shields.io/badge/Contact-contact%40empasy.com-10b981?style=flat-square&logo=mail.ru&logoColor=white)](mailto:contact@empasy.com)
 
 <br/>
@@ -71,12 +71,12 @@ flowchart TD
 
 ### 주요 구축 및 프로젝트 레퍼런스
 
-- **비상교육 (AIDT 교육 플랫폼)**: 동시 접속 2,000명 규모 교육 환경에 QA 자동화(SyncETA)를 도입하여 회귀 테스트 시간을 4시간에서 45분으로 단축하고 수작업 검증 과정을 효율화했습니다.
-- **아우토크립트 & 현대자동차 (vSoC 차량 관제)**: 대규모 텔레매틱스 데이터 파이프라인을 구축하여 초당 1만 건 이상의 차량 관제 데이터를 지연 없이 처리하고 실시간 이상 징후를 감지하도록 구현했습니다.
-- **홈플러스 (차세대 MIS 시스템)**: SyncBoot 기반의 클라우드 네이티브 MSA 전환을 지원하고, Saga 분산 트랜잭션 설계를 적용하여 비즈니스 데이터의 정합성을 보장했습니다.
-- **펜타시큐리티 (WAPPLES API Security)**: SyncBoot 프레임워크와 OpenSearch를 연계하여 대용량 API 트래픽 인덱싱 및 멀티 클라우드 관제 엔진을 구축했습니다.
-- **효성ITX (엔터프라이즈 데이터 파이프라인)**: AKS 환경 기반의 분산 브라우저 수집 파이프라인을 구현하고 엔터프라이즈 RAG 구축을 위한 데이터 자산화를 지원했습니다.
-- **엔터프라이즈 시스템 구축 및 운영**: LX하우시스, SK매직, KT, 한전 등 다수 기업의 대규모 서비스 개발, 다국어 커머스 구축, 운영 관리를 수행했습니다.
+- **에듀테크 글로벌 (AIDT 교육 플랫폼)**: 동시 접속 2,000명 규모 교육 환경에 QA 자동화(SyncETA)를 도입하여 회귀 테스트 시간을 4시간에서 45분으로 단축하고 수작업 검증 과정을 효율화했습니다.
+- **오토시큐어 & 퍼스트모빌리티 (vSoC 차량 관제)**: 대규모 텔레매틱스 데이터 파이프라인을 구축하여 초당 1만 건 이상의 차량 관제 데이터를 지연 없이 처리하고 실시간 이상 징후를 감지하도록 구현했습니다.
+- **네오리테일 (차세대 MIS 시스템)**: SyncBoot 기반의 클라우드 네이티브 MSA 전환을 지원하고, Saga 분산 트랜잭션 설계를 적용하여 비즈니스 데이터의 정합성을 보장했습니다.
+- **코어시큐리티 (클라우드 API Security)**: SyncBoot 프레임워크와 OpenSearch를 연계하여 대용량 API 트래픽 인덱싱 및 멀티 클라우드 관제 엔진을 구축했습니다.
+- **인텔리전트ITX (엔터프라이즈 데이터 파이프라인)**: AKS 환경 기반의 분산 브라우저 수집 파이프라인을 구현하고 엔터프라이즈 RAG 구축을 위한 데이터 자산화를 지원했습니다.
+- **엔터프라이즈 시스템 구축 및 운영**: 리빙스페이스, 스마트케어가전, 글로벌텔레콤, 대한에너지공사 등 다수 기업의 대규모 서비스 개발, 다국어 커머스 구축, 운영 관리를 수행했습니다.
 
 ---
 
