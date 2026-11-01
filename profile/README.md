@@ -83,7 +83,7 @@ flowchart TD
 ### 기술 스택
 
 - **AI 및 에이전트**: AgentScope Java, Model Context Protocol (MCP), LangChain, Vision-LLM, RAG
-- **백엔드**: Java 21 / 25, Spring Boot 3, Spring Cloud, PostgreSQL 17 (pgvector), Redis, Kafka, RabbitMQ
+- **백엔드**: Java 21 / 25, Spring Boot 3, Spring Cloud, PostgreSQL 18.6 (pgvector), Redis, Kafka, RabbitMQ
 - **프론트엔드**: Vue 3, Vite, TypeScript, Pinia, Vben Admin, TailwindCSS
 - **인프라 및 클라우드**: Docker, Kubernetes (AKS/EKS), Jenkins, GitHub Actions, AWS, Azure, Linux
 - **품질 관리**: Playwright, Selenium, Chromium Automation Engine (SyncETA)
