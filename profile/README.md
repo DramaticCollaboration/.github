@@ -56,7 +56,7 @@ flowchart TD
 
 ---
 
-## 주력 솔루션: SyncETA (싱크에타) — 국산 AI 테스트 자동화 플랫폼
+## 주력 솔루션: SyncETA (씽크이티에이) — 국산 AI 테스트 자동화 플랫폼
 
 **[SyncETA](https://empasy.io/ko/solutions/sync-eta.html)**는 기존 스크립트 자동화(Selenium·단독 Playwright)의 높은 유지보수 비용과 매 스텝 LLM을 호출하는 클라우드 SaaS의 속도·비용·보안 한계를 동시에 해결하는 **하이브리드 AI 테스트 자동화 플랫폼**입니다.
 
