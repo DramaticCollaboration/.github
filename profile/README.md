@@ -2,108 +2,142 @@
 
 # 주식회사 엠파시 (Empasy Inc.)
 
-기업 업무 환경에 맞춘 AI 멀티 에이전트와 클라우드 네이티브 솔루션을 개발합니다.
+**엔터프라이즈 AI 테스트 자동화 · AI DLC · AX · AIOps 통합 플랫폼 `SyncSeries`**
 
-[![Official Website](https://img.shields.io/badge/Official_Web-empasy.io-0284c7?style=flat-square&logo=google-chrome&logoColor=white)](https://empasy.io)
-[![Tech Documentation](https://img.shields.io/badge/Tech_Docs-doc.empasy.com-f97316?style=flat-square&logo=gitbook&logoColor=white)](https://doc.empasy.com)
-[![GitHub Org](https://img.shields.io/badge/GitHub-empasy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/empasy)
-[![Contact](https://img.shields.io/badge/Contact-contact%40empasy.com-10b981?style=flat-square&logo=mail.ru&logoColor=white)](mailto:contact@empasy.com)
+[![Official Website](https://img.shields.io/badge/Official_Web-empasy.io-0e7490?style=flat-square&logo=google-chrome&logoColor=white)](https://empasy.io)
+[![SyncETA AI QA](https://img.shields.io/badge/SyncETA-eta.empasy.io-0284c7?style=flat-square&logo=playwright&logoColor=white)](https://eta.empasy.io)
+[![Tech Docs](https://img.shields.io/badge/Tech_Docs-doc.empasy.com-f97316?style=flat-square&logo=gitbook&logoColor=white)](https://doc.empasy.com)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-demo.empasy.io-7c3aed?style=flat-square&logo=vercel&logoColor=white)](https://demo.empasy.io)
+[![Download SyncETA](https://img.shields.io/badge/Desktop_v0.0.66-Free_Download-10b981?style=flat-square&logo=windows&logoColor=white)](https://empasy.io/ko/download_eta.html)
+[![Contact](https://img.shields.io/badge/Contact-poh%40empasy.com-334155?style=flat-square&logo=mail.ru&logoColor=white)](mailto:poh@empasy.com)
 
 <br/>
 
-엠파시는 엔터프라이즈 환경에서 안정적으로 동작하는 AI 자율 운영 솔루션(SyncSeries)을 개발합니다.  
-표준 프로토콜(Model Context Protocol, MCP) 기반의 에이전트 연동 기술과 대규모 트래픽을 처리하는 클라우드 아키텍처를 바탕으로  
-기획, 개발, 데이터 파이프라인, 품질 검증의 자동화를 지원합니다.
+주식회사 엠파시(**Empasy Inc.**)는 기업의 **AX(AI Transformation)**, **AI DLC(AI-Driven Development Lifecycle)**, **AI 테스트 자동화(Self-Healing E2E QA)**, **AIOps · 보안 거버넌스**를 하나의 표준 아키텍처로 통합하는 엔터프라이즈 AI 소프트웨어 기업입니다.  
+반복적인 개발·품질 검증·운영 업무는 AI 에이전트가 자율 수행하고, 중요한 변경과 배포는 **Human-in-the-Loop(HITL) 승인 거버넌스**로 안전하게 통제합니다.
 
 </div>
 
 ---
 
-### SyncSeries 아키텍처 구성
-
-SyncSeries는 도메인별 독립 모듈과 AI 에이전트가 유기적으로 연계되어 동작하는 엔터프라이즈 솔루션 라인업입니다.
+## 4대 엔터프라이즈 AI 핵심 영역 (SyncSeries)
 
 ```mermaid
 flowchart TD
-    subgraph Intelligence ["지능화 및 오케스트레이션"]
-        SV["SyncVerse<br/>(에이전트 협업 관제)"]
-        SI["SyncInsight<br/>(자연어 데이터 분석)"]
-        SL["SyncLLM<br/>(AI 게이트웨이 및 비용 관리)"]
+    subgraph AIDLC ["1. AI DLC · 협업 개발 및 승인 거버넌스"]
+        SV["SyncVerse (AI 협업 관제 · HITL 승인)"]
+        SD["SyncSDK (5-Step Spec Studio · 15대 코딩 엔진)"]
     end
 
-    subgraph Platform ["엔터프라이즈 애플리케이션 플랫폼"]
-        SB["SyncBoot<br/>(MSA 백엔드 프레임워크)"]
-        SC["SyncCMS<br/>(헤드리스 콘텐츠 관리)"]
-        SH["SyncShop<br/>(커머스 마이크로서비스)"]
-        SA["SyncAdmin<br/>(관리자 UI 템플릿)"]
-        AP["SyncAPIM<br/>(API 관리 게이트웨이)"]
+    subgraph AIQA ["2. AI 테스트 자동화 · 자가 치유 E2E QA"]
+        SE["SyncETA (노코드 E2E · Vision-LLM Self-Healing · Visual AI)"]
     end
 
-    subgraph DataQA ["데이터 및 품질 검증"]
-        SE["SyncETA<br/>(화면 인식 기반 QA 자동화)"]
-        CR["SyncCrawl<br/>(RAG 지식 수집 파이프라인)"]
-        TC["TodayCare<br/>(디지털 헬스케어 플랫폼)"]
+    subgraph AX ["3. AX · 엔터프라이즈 업무 · 데이터 전환"]
+        SB["SyncBoot (Java 25 · Spring Boot 4.0 백오피스 코어)"]
+        SC["SyncCMS (Nuxt 3 SSR 다국어 웹 CMS)"]
+        SI["SyncInsight (대화형 NL2SQL 데이터 인텔리전스)"]
+        SH["SyncShop (8-MSA 마진 보호 커머스)"]
     end
 
-    Intelligence <-->|표준 MCP 및 A2A 프로토콜| Platform
-    Platform <--> DataQA
+    subgraph AIOPS ["4. AIOps · AI 비용 · 보안 · 운영 관제"]
+        SL["SyncLLM (멀티 LLM 게이트웨이 · FinOps · PII 마스킹)"]
+        AP["SyncAPIM (Shadow API 탐지 · eBPF 보안 방어)"]
+        SW["SyncWatch (CVE · CISA KEV · KISA 보안 룰 컴파일러)"]
+        SO["SyncOps (SI 프로젝트 손익 · 하도급 법정기한 감시)"]
+        CR["SyncCrawl (분산 웹 데이터 수집 · RAG 파이프라인)"]
+    end
+
+    AIDLC <-->|"MCP · A2A 표준 프로토콜"| AIQA
+    AIDLC <-->|"승인 게이트 · API 계약"| AX
+    AIOPS -->|"FinOps · 보안 정책 · 관제"| AIDLC
+    AIOPS -->|"런타임 방어 · 지식 공급"| AX
 ```
 
 ---
 
-### 주요 솔루션 및 플랫폼
+## 주력 솔루션: SyncETA (싱크에타) — 국산 AI 테스트 자동화 플랫폼
 
-| 솔루션 | 구분 및 역할 | 주요 기능과 특징 | 문서 |
-| :--- | :--- | :--- | :--- |
-| **SyncVerse** | AI 협업 관제 | 표준 MCP 기반 도메인 에이전트 연동, 사용자 의도 기반 작업 라우팅, 작업 승인(HITL) 거버넌스 | [문서 보기](https://doc.empasy.com/syncverse/) |
-| **SyncInsight** | 비즈니스 인텔리전스 | 자연어 질의 기반 맞춤형 데이터 조회(NL2SQL), 실시간 스트리밍 지표 분석 및 이상 감지 | [문서 보기](https://doc.empasy.com/syncinsight/) |
-| **SyncETA** | QA 자동화 | 화면 UI 인식 기반 요소 탐색, 엑셀 테스트케이스 직결 실행, CI/CD 무인 회귀 테스트 | [문서 보기](https://doc.empasy.com/synceta/) |
-| **SyncCrawl** | 데이터 수집 엔진 | 웹 페이지 구조 변화에 대응하는 데이터 수집, 정형 JSON 변환 및 RAG 벡터 DB 파이프라인 | [문서 보기](https://doc.empasy.com/synccrawl/) |
-| **SyncBoot** | MSA 프레임워크 | Spring Boot 기반 클린 아키텍처 및 DDD 지원, 권한/워크플로우 내장, 엔터프라이즈 보안 표준 | [문서 보기](https://doc.empasy.com/syncboot/) |
-| **SyncShop** | 커머스 플랫폼 | 마이크로서비스 독립 구조(Admin, Portal, Gateway, Search), 마진 보호 로직, 시맨틱 상품 검색 | [문서 보기](https://doc.empasy.com/syncshop/) |
-| **SyncCMS** | 콘텐츠 관리 | 다국어 및 멀티 도메인 지원, 컴포넌트 기반 화면 빌더, 실시간 미리보기 및 SEO 최적화 | [문서 보기](https://doc.empasy.com/synccms/) |
-| **SyncLLM** | AI 게이트웨이 | 다중 LLM 라우팅, 토큰 사용량 및 비용 모니터링, 시맨틱 캐싱, 개인정보 마스킹 | [문서 보기](https://doc.empasy.com/syncllm/) |
-| **TodayCare** | 헬스케어 DX | 시니어 일상 케어 및 복약 관리 모바일 앱, 패밀리 보호자 앱, 센터 관리자 시스템 | [문서 보기](https://empasy.io) |
-| **SyncAdmin** | UI 프레임워크 | Vue 3, Vite, TypeScript 기반의 반응형 백오피스 템플릿과 표준 컴포넌트 라이브러리 | [문서 보기](https://doc.empasy.com/syncadmin/) |
-| **SyncAPIM** | API 관리 | 엔터프라이즈 API 생성, 배포, 접근 제어, 사용량 제한 및 모니터링 관리 | [문서 보기](https://doc.empasy.com/syncapim/) |
+**[SyncETA](https://empasy.io/ko/solutions/sync-eta.html)**는 기존 스크립트 자동화(Selenium·단독 Playwright)의 높은 유지보수 비용과 매 스텝 LLM을 호출하는 클라우드 SaaS의 속도·비용·보안 한계를 동시에 해결하는 **하이브리드 AI 테스트 자동화 플랫폼**입니다.
 
----
+- **노코드 멀티 입력**: 브라우저 클릭 동작 녹화, 기존 **엑셀·CSV 테스트케이스 업로드**, 한 줄 자연어 지시로 비개발자 QA·기획자·운영자도 즉시 E2E 시나리오 생성
+- **반복 실행 LLM 비용 0원 + 실패 시점 자가 치유(Self-Healing)**: 일상적인 회귀 테스트는 결정론적 Playwright 엔진으로 고속 재생하고, UI 개편으로 셀렉터가 깨졌을 때만 **Vision-LLM + DOM 문맥**으로 실시간 자동 복구
+- **시각적 회귀 검증(Visual Regression) & 링크 전수 검사**: 시나리오 없이도 사이트 전체 하위 링크 404·의미 불일치·글자 겹침·화면 깨짐을 전수 검사하며, 애매한 화면은 사진과 함께 `[확인 필요]`로 정직하게 분류
+- **국내 실무 환경 특화 & 버그 칸반**: 한국형 금융 보안 가상 키패드 자동 인식, 글로벌 쿠키 동의 팝업 자동 닫기, 민감 개인정보 마스킹, 사진·영상 첨부 버그 칸반 보드 및 `[지금 확인]` 원클릭 재검증
+- **온프레미스 · 사내 폐쇄망 완벽 지원**: Windows·macOS 데스크톱 앱([v0.0.66 무료 다운로드](https://empasy.io/ko/download_eta.html)) 로컬 구동 및 사내 서버·로컬 LLM(vLLM, Ollama)·CI/CD(Jira, Jenkins, GitHub Actions, Slack, Playwright MCP) 연동
+- **핵심 원천 특허**: 대한민국 등록 특허 제10-2025-0125736호 (*웹 브라우저 동작 레코딩 기반 AI 자연어 테스트케이스 자동화*) — [특허 기술 문서](https://doc.empasy.com/patents/registered-web-action-recording)
 
-### 주요 구축 및 프로젝트 레퍼런스
+### 2026 AI 테스트 자동화 패러다임 비교
 
-- **에듀테크 글로벌 (AIDT 교육 플랫폼)**: 동시 접속 2,000명 규모 교육 환경에 QA 자동화(SyncETA)를 도입하여 회귀 테스트 시간을 4시간에서 45분으로 단축하고 수작업 검증 과정을 효율화했습니다.
-- **오토시큐어 & 퍼스트모빌리티 (vSoC 차량 관제)**: 대규모 텔레매틱스 데이터 파이프라인을 구축하여 초당 1만 건 이상의 차량 관제 데이터를 지연 없이 처리하고 실시간 이상 징후를 감지하도록 구현했습니다.
-- **네오리테일 (차세대 MIS 시스템)**: SyncBoot 기반의 클라우드 네이티브 MSA 전환을 지원하고, Saga 분산 트랜잭션 설계를 적용하여 비즈니스 데이터의 정합성을 보장했습니다.
-- **코어시큐리티 (클라우드 API Security)**: SyncBoot 프레임워크와 OpenSearch를 연계하여 대용량 API 트래픽 인덱싱 및 멀티 클라우드 관제 엔진을 구축했습니다.
-- **인텔리전트ITX (엔터프라이즈 데이터 파이프라인)**: AKS 환경 기반의 분산 브라우저 수집 파이프라인을 구현하고 엔터프라이즈 RAG 구축을 위한 데이터 자산화를 지원했습니다.
-- **엔터프라이즈 시스템 구축 및 운영**: 리빙스페이스, 스마트케어가전, 글로벌텔레콤, 대한에너지공사 등 다수 기업의 대규모 서비스 개발, 다국어 커머스 구축, 운영 관리를 수행했습니다.
+> 상세 비교 분석: [AI 테스트 자동화 도구 비교 가이드 (2026) — empasy.io](https://empasy.io/ko/blog/ai-test-automation-tools-comparison-2026.html)
+
+| 비교 항목 | 코드 프레임워크 (Selenium · Playwright) | AI 코딩 에이전트 (Cursor · Claude Code + Playwright MCP) | 순수 LLM · 해외 클라우드 SaaS | 하이브리드 AI E2E 플랫폼 (**엠파시 SyncETA**) |
+| :--- | :--- | :--- | :--- | :--- |
+| **주요 사용자** | 개발자 · SDET | 개발자 | QA · 기획자 | **QA · 기획자 · 운영자 · 개발자 공용** |
+| **시나리오 작성** | 코드 수동 작성 | 프롬프트로 코드 초안 생성 | 자연어 · 클라우드 녹화 | **브라우저 클릭 녹화 · 엑셀 업로드 · 한 줄 문장 변환** |
+| **UI 변경 대응 (Self-Healing)** | 수동 코드 수정 | 재프롬프트 및 코드 PR 필요 | 매 스텝 AI 재탐색 | **실패 시점 Vision-LLM + DOM 문맥 자가 치유** |
+| **반복 실행 속도 · LLM 비용** | 매우 빠름 · 토큰 0원 | 빠름 · 수정 시 토큰 발생 | 느림 · 매 실행마다 토큰 과금 | **매우 빠름 · 반복 회귀 재생 LLM 비용 0원** |
+| **시각 결함 · 링크 전수 검사** | 별도 구현 필요 | 코드 검증 중심 | 도구별 부분 지원 | **시나리오 없는 404 · 글자 겹침 · `[확인 필요]` 기본 내장** |
+| **한국형 실무 장애물 대응** | 커스텀 코딩 | 매번 프롬프트 대응 | 한국형 보안 키패드 미지원 | **보안 가상 키패드 · 쿠키 배너 자동 통과 · PII 마스킹** |
+| **사내 폐쇄망 · 국내 기술 지원** | 자체 구축 필요 | 클라우드 API 제약 | 클라우드 종속 · 국내 지원 제한 | **데스크톱 로컬 · 온프레미스 · 로컬 LLM · 국내 직접 지원** |
 
 ---
 
-### 기술 스택
+## SyncSeries 전체 11종 제품 디렉토리
 
-- **AI 및 에이전트**: AgentScope Java, Model Context Protocol (MCP), LangChain, Vision-LLM, RAG
-- **백엔드**: Java 21 / 25, Spring Boot 3, Spring Cloud, PostgreSQL 18.6 (pgvector), Redis, Kafka, RabbitMQ
-- **프론트엔드**: Vue 3, Vite, TypeScript, Pinia, Vben Admin, TailwindCSS
-- **인프라 및 클라우드**: Docker, Kubernetes (AKS/EKS), Jenkins, GitHub Actions, AWS, Azure, Linux
-- **품질 관리**: Playwright, Selenium, Chromium Automation Engine (SyncETA)
+| 영역 | 솔루션 | 핵심 역할 및 기능 | 공식 페이지 | 기술 문서 |
+| :--- | :--- | :--- | :--- | :--- |
+| **AI 테스트 자동화** | **SyncETA** *(주력)* | Vision-LLM 셀렉터 자가 치유, 노코드 웹·모바일 E2E QA, 시각적 회귀 검증, 버그 칸반 | [제품 소개](https://empasy.io/ko/solutions/sync-eta.html) · [독립 사이트](https://eta.empasy.io/) | [SyncETA Docs](https://doc.empasy.com/synceta/) |
+| **AI DLC** | **SyncVerse** *(주력)* | 멀티 에이전트 협업 관제, 5-Step Spec Studio, HITL 단계별 배포 승인 거버넌스 | [제품 소개](https://empasy.io/ko/solutions/sync-verse.html) | [SyncVerse Docs](https://doc.empasy.com/syncverse/) |
+| **AX 코어** | **SyncBoot** *(주력)* | Java 25 · Spring Boot 4.0 엔터프라이즈 백오피스 코어(SSO, 조직·권한 RBAC, 전자결재) | [제품 소개](https://empasy.io/ko/solutions/sync-boot.html) | [SyncBoot Docs](https://doc.empasy.com/syncboot/) |
+| **AX 웹** | **SyncCMS** *(주력)* | Nuxt 3 SSR 하이브리드 다국어(KO/EN/JA) 기업 웹사이트 통합 관리 · 배포 승인 | [제품 소개](https://empasy.io/ko/solutions/sync-cms.html) | [SyncCMS Docs](https://doc.empasy.com/synccms/) |
+| **AX 데이터** | **SyncInsight** | 자연어 데이터 조회(NL2SQL), 딥 리서치 리포트, 데이터 리니지 (SyncVerse 통합) | [제품 소개](https://empasy.io/ko/solutions/sync-insight.html) | [SyncInsight Docs](https://doc.empasy.com/syncinsight/) |
+| **AIOps · FinOps** | **SyncLLM** | 멀티 LLM 게이트웨이, 부서별 토큰 예산 통제, `pgvector` 시맨틱 캐싱, PII 마스킹 | [제품 소개](https://empasy.io/ko/solutions/sync-llm.html) | [SyncLLM Docs](https://doc.empasy.com/syncllm/) |
+| **AIOps · 데이터** | **SyncCrawl** | 구조 변경 대응 분산 웹 데이터 수집 및 기업 RAG 지식 베이스 정제 파이프라인 | [제품 소개](https://empasy.io/ko/solutions/sync-crawl.html) | [SyncCrawl Docs](https://doc.empasy.com/synccrawl/) |
+| **AIOps · API 보안** | **SyncAPIM** | 숨은(Shadow) API 자동 탐지, 계약 드리프트 검사, 무중단 가상 패치, eBPF 커널 방어 | [제품 소개](https://empasy.io/ko/solutions/sync-apim.html) | [SyncAPIM Docs](https://doc.empasy.com/syncapim/) |
+| **AIOps · 위협 관제** | **SyncWatch** | NVD CVE · CISA KEV · OSV · KISA 취약점 수집 및 코드 감사·런타임 방어 룰 컴파일러 | [제품 소개](https://empasy.io/ko/solutions/sync-watch.html) | [SyncWatch Docs](https://doc.empasy.com/syncwatch/) |
+| **AX 커머스** | **SyncShop** | 8-서비스 분산 마이크로서비스(MSA) 이커머스, 최소 마진 보호 및 스냅샷 즉시 복원 | [제품 소개](https://empasy.io/ko/solutions/sync-shop.html) | [SyncShop Docs](https://doc.empasy.com/syncshop/) |
+| **AIOps · PMO** | **SyncOps** | SI 프로젝트 계약 vs 투입 원가 실시간 손익 추적, 하도급 법정기한 · 보증증권 감시 | [제품 소개](https://empasy.io/ko/solutions/sync-ops.html) | [SyncOps Docs](https://doc.empasy.com/syncops/) |
 
 ---
 
-### 주요 사업 영역
+## 주요 엔터프라이즈 · 기관 레퍼런스
 
-1. **AI 솔루션 및 플랫폼 공급**: SyncSeries 공급, 엔터프라이즈 AI 에이전트 구축 및 온프레미스 최적화
-2. **시스템 구축 (SI)**: 클라우드 네이티브 MSA 분석 및 설계, 대규모 비즈니스 시스템 신속 구축
-3. **시스템 운영 및 관리 (ITO)**: 24/7 시스템 안정성 확보, 성능 튜닝, 보안 규정 준수 관리
-4. **아키텍처 컨설팅**: 마이크로서비스 전환, FinOps 클라우드 비용 최적화, A2A 협업 모델 수립
+*(비밀 유지 계약에 따라 개별 프로젝트명은 비공개로 하고, 산업군별 지원 기업·기관 및 수행 영역만 표기합니다.)*
+
+- **글로벌 · 에듀테크 테스트 자동화**: Samsung.com (글로벌 테스트 자동화), 비상교육(Visang Education, 테스트 자동화)
+- **대기업 제조 · 엔터프라이즈 IT**: LG CNS, LG전자, LG화학, 현대자동차
+- **모빌리티 · 정보보안 관제**: 아우토크립트(AUTOCRYPT), 펜타시큐리티(Penta Security)
+- **공공 · 교육 데이터 플랫폼**: 펜타시스템 & 경기도교육청 (공공 교육 데이터 플랫폼 협업)
 
 ---
 
-### 문의 및 링크
+## 공통 엔터프라이즈 기술 스택
 
-- 공식 웹사이트: [https://empasy.io](https://empasy.io)
-- 개발자 기술 문서: [https://doc.empasy.com](https://doc.empasy.com)
-- 비즈니스 제휴 및 솔루션 도입 문의: [contact@empasy.com](mailto:contact@empasy.com)
+- **AI · Agent · Protocol**: AgentScope Java, Model Context Protocol (MCP), A2A Orchestration, Vision-LLM, Local LLM (vLLM, Ollama, TGI), Tri-Hybrid RAG
+- **Backend & Data**: Java 25, Spring Boot 4.0, Spring Cloud 2025, PostgreSQL 18.6 (`pgvector`, `pg_trgm`), Redis 7, RabbitMQ, KEDA
+- **Frontend & Desktop**: Vue 3, TypeScript, Vite, Vben Admin, Nuxt 3 SSR, Electron + Quasar (`SyncETA Desktop`)
+- **QA & Security**: Playwright MCP, Appium 3.7+ Dual Mobile Engine, eBPF Runtime Defense, Kubernetes (EKS/AKS/On-Premise)
+
+---
+
+## English Executive Summary
+
+**Empasy Inc. (주식회사 엠파시)** builds **SyncSeries**, an integrated enterprise platform unifying **AI Test Automation (`SyncETA`)**, **AI-Driven Development Lifecycle / AI DLC (`SyncVerse` & `SyncSDK`)**, **Enterprise AX (`SyncBoot`, `SyncCMS`, `SyncInsight`, `SyncShop`)**, and **AIOps & AI Security Governance (`SyncLLM`, `SyncAPIM`, `SyncWatch`, `SyncOps`, `SyncCrawl`)**.
+
+- **Flagship AI Test Automation (`SyncETA` v0.0.66)**: Combines no-code browser action recording, Excel/CSV & one-line prompt conversion, **Vision-LLM + DOM context selector Self-Healing**, **Visual Regression** layout/link auditing, and **zero-LLM-cost deterministic Playwright replay**—deployable via local desktop apps (Windows/macOS) or air-gapped on-premise servers. Backed by **Korean Registered Patent No. 10-2025-0125736**.
+- **Official Resources**: [empasy.io](https://empasy.io/en/pages/index.html) · [SyncETA](https://eta.empasy.io/en/) · [Developer Docs](https://doc.empasy.com/en/) · [Live Demo Portal](https://demo.empasy.io/en/) · [2026 AI Test Automation Tools Comparison](https://empasy.io/en/blog/ai-test-automation-tools-comparison-2026.html)
+
+---
+
+## 공식 채널 및 기업 정보
+
+- **공식 홈페이지**: https://empasy.io (`llms.txt`: https://empasy.io/llms.txt)
+- **SyncETA 제품 홈페이지**: https://eta.empasy.io/ | **무료 다운로드**: https://empasy.io/ko/download_eta.html
+- **통합 라이브 데모 포털** *(회원가입 불필요)*: https://demo.empasy.io/
+- **공식 기술 문서 포털**: https://doc.empasy.com/
+- **기업 인증**: 주식회사 엠파시 (Empasy Inc.) | 대표이사 오병문 | 사업자등록번호 `547-81-03408` | 혁신성장유형 벤처기업 확인 (제 `20261111030084` 호)
+- **도입 및 제휴 문의**: [poh@empasy.com](mailto:poh@empasy.com) | `+82-507-1360-8169`
 
 <div align="right">
 <sub>Copyright © 2026 Empasy Inc. All rights reserved.</sub>
