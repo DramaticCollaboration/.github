@@ -19,7 +19,7 @@
 ### 백엔드 (Java / Spring Boot)
 - [ ] Lombok 애너테이션(`@Getter`, `@Setter`, `@Builder`, `@RequiredArgsConstructor` 등)을 적용하여 보일러플레이트 코드를 줄였는가?
 - [ ] 컨트롤러 매핑이 `/api/v1/{domain}/...` 형태의 단일 경로로 작성되었는가?
-- [ ] 가짜 데이터 대신 실제 데이터베이스(PostgreSQL 17 pgvector) 연동 환경에서 정상 동작하는가?
+- [ ] 가짜 데이터 대신 실제 데이터베이스(PostgreSQL 18.6 pgvector) 연동 환경에서 정상 동작하는가?
 - [ ] DB 변경 스크립트가 있을 경우, 키 충돌 없이 1회에 성공하는 순수 INSERT 문으로 작성되었는가?
 
 ### 프론트엔드 (Vue 3 / TypeScript)

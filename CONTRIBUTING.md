@@ -8,7 +8,7 @@
 ## 개발 기본 원칙
 
 1. **실제 데이터 기반 검증 (Zero-Mock)**
-   - 가짜 데이터나 임시 응답 대신, 실제 데이터베이스(PostgreSQL 17 pgvector) 및 인프라와의 연동을 기준으로 기능을 검증합니다.
+   - 가짜 데이터나 임시 응답 대신, 실제 데이터베이스(PostgreSQL 18.6 pgvector) 및 인프라와의 연동을 기준으로 기능을 검증합니다.
 2. **Lombok 및 클린 코드 표준**
    - 백엔드 DTO, Entity, VO에 Lombok 애너테이션(`@Getter`, `@Setter`, `@Builder`, `@RequiredArgsConstructor` 등)을 활용하여 불필요한 보일러플레이트 코드를 줄입니다.
 3. **단일 API URL 매핑**
